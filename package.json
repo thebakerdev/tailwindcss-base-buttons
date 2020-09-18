@@ -1,0 +1,31 @@
+{
+  "name": "tailwindcss-base-buttons",
+  "version": "1.0.0",
+  "description": "A base button styling for Tailwind Css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thebakerdev/tailwindcss-base-buttons.git"
+  },
+  "keywords": [
+    "tailwindcss",
+    "tailwindcss-plugin",
+    "buttons"
+  ],
+  "author": "Marc Tallo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thebakerdev/tailwindcss-base-buttons/issues"
+  },
+  "homepage": "https://github.com/thebakerdev/tailwindcss-base-buttons#readme",
+  "dependencies": {
+    "color": "^3.1.2",
+    "lodash": "^4.17.20"
+  },
+  "devDependencies": {
+    "tailwindcss": "^1.8.10"
+  }
+}
