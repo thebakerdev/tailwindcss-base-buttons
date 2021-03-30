@@ -1,7 +1,8 @@
 const _ = require('lodash');
 const defaultConfig = require('tailwindcss/defaultConfig');
 
-const defaultColors = _.omit(defaultConfig.theme.colors, [
+const colors = require('tailwindcss/colors')
+const defaultColors = _.omit(colors, [
     'transparent',
     'current'
 ]);
